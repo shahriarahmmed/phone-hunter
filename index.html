@@ -16,7 +16,7 @@
     <main>
         <section class="container w-50">
             <div class="mb-3">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="search">
+                <input type="email" class="form-control" id="search-field" placeholder="search">
                 <button id="btn-search" class="btn btn-primary">Search</button>
             </div>
         </section>
@@ -24,6 +24,9 @@
         <!-- display phones -->
         <section class="container">
             <div id="phone-container" class="row row-cols-1 row-cols-md-3 g-4">
+            </div>
+            <div class="d-none">
+                <h3 class="text-warning m-3 text-center" id="no-phone-found">No Phones found. Please try a new search.</h3>
             </div>
         </section>
     </main>
